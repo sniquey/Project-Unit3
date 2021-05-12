@@ -7,6 +7,7 @@ UNIVERSAL SELECTOR
     font-size: 17px;
     line-height: 1.5;
     color: grey;
+    font-family: 'Merriweather', serif;
 }
 
 /*====================================
@@ -160,16 +161,14 @@ button:hover {
     cursor: pointer;
 }
 
-label[for="name"]::after, label[for="email"]::after {
-    content: "Required";
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-style: italic;
     position: absolute;
-    right: 10px;
-    top: 45px;
-    z-index: 20;
+    right: 20px;
     opacity: .6;
-}
-
+    font-size: 14px;
+    padding-right: 5px;
+  }
 
 hr:only-of-type {
     width: 100%;
