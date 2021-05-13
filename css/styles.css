@@ -116,7 +116,7 @@ CLASS AND ID SELECTORS
 =====================================*/
 
 #zipcode {
-    width: 150px;
+    width: 50%;
 }
 
 .top-line {
@@ -186,4 +186,9 @@ MEDIA QUERIES
     .header-container {
         margin: 0 auto;
     }
+
+    #zipcode {
+        width: 300px;
+    }
 }
+
