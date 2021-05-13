@@ -138,6 +138,17 @@ CLASS AND ID SELECTORS
     margin-bottom: 10px;
 }
 
+.second-form {
+    background-color: honeydew;
+    margin-top: 0;
+    border-top: solid 20px honeydew;
+}
+
+.second-form legend {
+    padding-top: 20px;
+    margin: 0;
+}
+
 /*====================================
 PSUEDO STATES 
 =====================================*/
@@ -145,6 +156,9 @@ PSUEDO STATES
 input:focus {
     border: navy solid 2px;
     outline: none;
+    background-color: grey;
+    color: black;
+    transition: 2s;
 }
 
 button:hover {
@@ -171,12 +185,6 @@ hr:only-of-type {
     max-width: 600px;
 }
 
-input:focus {
-    background-color: grey;
-    color: black;
-    transition: 2s;
-}
-
 
 /*====================================
 MEDIA QUERIES
@@ -185,10 +193,6 @@ MEDIA QUERIES
 @media (min-width: 600px) {
     .header-container {
         margin: 0 auto;
-    }
-
-    #zipcode {
-        width: 300px;
     }
 }
 
@@ -211,5 +215,13 @@ MEDIA QUERIES
 
     #zipcode {
         width: 15%;
+    }
+
+    input:focus {
+        border: navy solid 2px;
+        outline: none;
+        background-color: grey;
+        color: black;
+        transition: 2s;
     }
 }
