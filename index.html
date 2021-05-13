@@ -21,7 +21,7 @@
     </header>
     
     <form>
-        <fieldset>
+        <fieldset class="first-form">
             <legend>Contact Information</legend>
             <label for="name">Full Name</label>
             <input type="text" id="name" name="user_name" placeholder="Required" minlength="3" required>
@@ -42,8 +42,8 @@
                     <option value="state3">state 3</option>
             </select>
             
-            <label for="zipcode">Zip Code</label><br>
-            <input type="text" id="zipcode" name="user_zipcode" placeholder="Zipe Code">
+            <label for="zipcode" class="float">Zip Code</label><br>
+            <input type="text" id="zipcode" name="user_zipcode" placeholder="Zip Code">
             <hr>
         </fieldset>
         <fieldset>
@@ -51,7 +51,7 @@
             <p class="newsletter">Select the newsletters you would like to receive</p>
             <input type="checkbox" id="html" name="html">&nbsp;&nbsp;&nbsp;<label for="html">HTML News</label><br>
             <input type="checkbox" id="css" name="css">&nbsp;&nbsp;&nbsp;<label for="css">CSS News</label><br>
-            <input type="checkbox" id="javascript" name="javascript">&nbsp;&nbsp;&nbsp;<label for="javascript">Javascript News</label><br>
+            <input type="checkbox" id="javascript" name="javascript">&nbsp;&nbsp;&nbsp;<label for="javascript">Javascript News</label>
 
             <p class="newsletterformat">Newsletter format</p>
             <input type="radio" id="html-format" name="format">&nbsp;&nbsp;&nbsp;<label for="html-format">HTML</label><br>

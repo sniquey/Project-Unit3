@@ -192,3 +192,24 @@ MEDIA QUERIES
     }
 }
 
+
+@media (min-width: 768px) {
+
+    .first-form label {
+        float: left;
+        width: 30%;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+        padding: 15px 10px;
+        width: 60%;
+        margin: 10px 0;
+        background-color :#EFF0F1;  
+        border: #EFF0F1;
+        border-radius: 5px;
+    }
+
+    #zipcode {
+        width: 15%;
+    }
+}
