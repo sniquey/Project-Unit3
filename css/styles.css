@@ -202,7 +202,7 @@ MEDIA QUERIES
 
     input[type="text"], input[type="email"], input[type="tel"], select, textarea {
         padding: 15px 10px;
-        width: 60%;
+        width: 70%;
         margin: 10px 0;
         background-color :#EFF0F1;  
         border: #EFF0F1;
