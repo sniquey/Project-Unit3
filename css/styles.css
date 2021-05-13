@@ -50,7 +50,7 @@ fieldset {
     max-width: 600px;
 }
 
-input[type="text"], input[type="email"], input[type="phone"], select, textarea {
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
     padding: 15px 10px;
     width: 100%;
     margin: 10px 0;
